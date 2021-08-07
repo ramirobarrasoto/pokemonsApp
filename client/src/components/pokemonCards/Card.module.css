@@ -1,0 +1,52 @@
+.card {
+	color: blue;
+	background: #f4f420;
+	background: -moz-radial-gradient(center, #f4f420 0%, #2388cb 34%, #000000 100%);
+	background: -webkit-radial-gradient(center, #f4f420 0%, #2388cb 34%, #000000 100%);
+	background: radial-gradient(ellipse at center, #f4f420 0%, #2388cb 34%, #000000 100%);
+
+	width: 250px;
+	height: 250px;
+	border: 2px solid blue;
+	box-shadow: 5px 19px 23px 8px rgba(0, 0, 0, 0.53);
+	border-radius: 50%;
+	padding: 20px;
+	margin: 50px;
+	position: relative;
+	top: 0;
+	transition: all 0.1s ease-in;
+	display: flex;
+	flex-direction: column;
+}
+.card:hover {
+	top: -10px;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.p {
+	font-size: 25px;
+    text-transform: capitalize;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18,
+		0 0 55px #49ff18, 0 0 75px #49ff18;
+	padding: 0px;
+	margin-top: 0mm;
+	
+}
+.p1 {
+	font-size: 12px;
+    text-transform: capitalize;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18,
+		0 0 55px #49ff18, 0 0 75px #49ff18;
+	shape-outside: circle(50%);
+	padding: 0px;
+}
+
+.img {
+	width: 250px; 
+	height:140px;
+	padding:0mm;
+	margin-top: 0mm;
+}

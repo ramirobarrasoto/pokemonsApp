@@ -1,0 +1,68 @@
+.body {
+	background: #d0e4f5;
+	background-image: url(../../image/fondoPikachu.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0%;
+	padding: 0%;
+	height: 100vh;
+	position: center;
+	box-sizing: border-box;
+}
+
+.title {
+	color: '#fff';
+	font-size: 3rem;
+	font-style: oblique;
+	position: absolute;
+	right: 0;
+	
+}
+.colorText {
+	color: #fff;
+
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18,
+		0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+.colorText2 {
+	color: rgb(129, 123, 9);
+
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18,
+		0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+.myButton {
+	justify-content: center;
+	align-items: center;
+	color: rgb(255, 255, 255);
+	font-size: 50px;
+	line-height: 16px;
+	padding: 15px;
+	border-radius: 10px;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+	box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+	border: 2px solid rgb(28, 110, 164);
+	display: inline-block;
+	margin-top: 250px;
+	position: absolute;
+	right: 0;
+}
+.myButton:hover {
+	background: #1c6ea4;
+}
+.myButton:active {
+	background: #144e75;
+}
+
+.image {
+	width: 1px;
+}
+
+.gif{
+	height: 5px;
+}
